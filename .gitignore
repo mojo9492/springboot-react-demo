@@ -1,0 +1,18 @@
+.idea
+amigos-code1.iml
+
+#Backend
+target
+src/main/resources/application.properties
+src/main/resources/application-dev.properties
+
+#Frontend
+src/frontend/build
+src/frontend/node
+src/frontend/node_modules
+src/frontend/tsconfig.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
