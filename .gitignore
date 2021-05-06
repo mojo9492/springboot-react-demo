@@ -3,8 +3,6 @@ amigos-code1.iml
 
 #Backend
 target
-src/main/resources/application.properties
-src/main/resources/application-dev.properties
 
 #Frontend
 src/frontend/build
