@@ -18,6 +18,7 @@ import {
 	Theme
 } from "@material-ui/core";
 import Notification from "./components/Notification";
+import Footer from "./components/Footer";
 
 const useStyles = makeStyles((theme: Theme) =>
 		createStyles({
@@ -213,8 +214,9 @@ const App: React.FC = () => {
 				<NewStudentModal open={isOpen} close={() => setIsOpen(false)}/>
 				<StudentTable students={students} onDelete={deleteStudentHandler}/>
 				<Notification onOpen={toastMessage !== "" && true} onClose={() => setToastMessage("")}
-				              severityType={severity}>{toastMessage}</Notification>
-
+				              severityType={severity}>{toastMessage}
+				</Notification>
+				<Footer />
 			</div>
 	);
 }
