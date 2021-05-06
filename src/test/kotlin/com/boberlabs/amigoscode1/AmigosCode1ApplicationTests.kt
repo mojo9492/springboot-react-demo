@@ -1,13 +1,13 @@
 package com.boberlabs.amigoscode1
 
+import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class AmigosCode1ApplicationTests {
-
+internal class AppTests {
     @Test
     fun contextLoads() {
+        Assertions.fail<Any>("oooooooooooooooooowup")
     }
-
 }
