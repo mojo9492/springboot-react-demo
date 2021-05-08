@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service
 
 @AllArgsConstructor
 @Service
-class StudService {
+class StudService(studRepository: StudRepository) {
     @Autowired
     lateinit var studRepository: StudRepository
 
