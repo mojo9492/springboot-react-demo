@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service
 @AllArgsConstructor
 @Service
 class StudService {
-    @Autowired
+
     lateinit var studRepository: StudRepository
 
     fun getAllStuds(): List<Stud> {
